@@ -1,0 +1,15 @@
+[theme]
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#0F172A"
+font = "sans serif"
+
+[server]
+# Bind to localhost only: the app is a single-user local tool (technical_specification 15).
+address = "localhost"
+headless = false
+
+[browser]
+gatherUsageStats = false

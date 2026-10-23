@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local application data (may contain real production information)
+data/*.db
+data/*.db-*
+data/*.sqlite*
+data/logs/
+data/backups/
+data/exports/
+*.log
+
+# Secrets / environment
+.env
+*.pem
+*.key
+id_rsa*
+
+# Private planning material is kept in a separate private repository
+planning/
+master_prompt.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
